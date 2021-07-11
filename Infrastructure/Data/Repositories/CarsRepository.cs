@@ -64,7 +64,8 @@ namespace Infrastructure.Data.Repositories
                     WarehouseId = c.WarehouseId,
                     Id = c.Id,
                     Licensed = c.Licensed,
-                    Added = c.Added
+                    Added = c.Added,
+                    Model = c.Model
                 })
                 .ToListAsync();
 
